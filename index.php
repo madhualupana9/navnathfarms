@@ -127,12 +127,8 @@
                             <li>
                                 <a  href="about.html">About Us</a>
                             </li>
-                            <li class="dropdown">
-                                <a  class="dropdown-toggle" href="products.html">Products</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="products.html">Product1</a></li>
-                                    <li><a href="products.html">product2</a></li>
-                                </ul>
+                           <li class="dropdown">
+                                <a  href="products.html">Products</a>
                             </li>
                             <li>
                                 <a  href="community.html" >Join Community</a>
