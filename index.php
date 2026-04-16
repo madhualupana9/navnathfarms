@@ -990,7 +990,7 @@
                     
    <!-- Start Footer 
     ============================================= -->
-    <footer class="bg-dark text-light" style="background-image: url(assets/img/shape/brush-down.png);">
+    <footer class="bg-dark text-light" style="background-image: url(assets/img/shape/brush-down.png); background-color: #000000 !important;">
         <div class="container">
             <div class="f-items default-padding">
                 <div class="row">
