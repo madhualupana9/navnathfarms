@@ -72,12 +72,11 @@ Sidebar heading:  20px 'Manrope', sans-serif
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Handlee&amp;display=swap');
-
 /* Varialbes */
 :root {
 	--font-default: 'Manrope', sans-serif;
-	--font-secondary: 'Handlee', cursive;
+	--font-secondary: var(--font-default);
+	--font-heading: var(--font-default);
 	--fontawesome: "Font Awesome 5 Pro";
 	--black: #000000;
 	--dark: #c1c439;
