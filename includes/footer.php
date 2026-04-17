@@ -54,7 +54,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="meta-title">
-                                            <span class="post-date">12 Sep, 2022</span>
+                                            <span class="post-date">12 April 2026</span>
                                         </div>
                                         <h5><a >Meant widow equal an share least part. </a></h5>
                                     </div>
@@ -67,7 +67,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="meta-title">
-                                            <span class="post-date">18 Jul, 2022</span>
+                                            <span class="post-date">13 April 2026</span>
                                         </div>
                                         <h5><a>Future Plan & Strategy for Consutruction </a></h5>
                                     </div>

@@ -3700,7 +3700,7 @@ nav.navbar.validnavs.inc-shape::after {
 
 .about-style-one .thumb > img {
 	border-radius: 50%;
-	max-width: 110%;
+	max-width: 100%;
 	margin-left: -10%;
 }
 
@@ -3940,11 +3940,24 @@ ul.counter-list li:nth-child(2) {
 	background-position: left bottom;
 }
 
+.services-style-one-carousel .swiper-slide {
+	display: flex;
+	height: auto;
+}
+
 .services-style-one {
 	padding: 50px 30px;
 	background: var(--white);
 	position: relative;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.services-style-one .button {
+	margin-top: auto;
 }
 
 .services-style-one p {
@@ -5503,7 +5516,7 @@ ul.counter-list li:nth-child(2) {
 .testimonial-info img {
 	border-radius: 50%;
 	position: absolute;
-	height: 150px;
+	height: 125px;
 	background: var(--white);
 	padding: 2px;
 	box-shadow: 0 25px 70px rgb(0 0 0 / 7%);
@@ -5517,12 +5530,12 @@ ul.counter-list li:nth-child(2) {
 .testimonial-info img:nth-child(2) {
 	left: -50px;
 	bottom: 40px;
-	height: 100px;
+	height: 125px;
 }
 
 .testimonial-info img:nth-child(3) {
 	right: -80px;
-	height: 140px;
+	height: 125px;
 	top: 80px;
 }
 

@@ -341,7 +341,7 @@
                                         Continue indulged speaking technical out horrible domestic position. Seeing rather you.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;margin-top: 20px;">Buy Now</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">Buy Now</a>
                                     </div>
                                     
                                 </div>
@@ -358,7 +358,7 @@
                                         Continue indulged speaking technical out horrible domestic position. Seeing rather you.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;margin-top: 20px;">Buy Now</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">Buy Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -374,7 +374,7 @@
                                         Continue indulged speaking technical out horrible domestic position. Seeing rather you.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;margin-top: 20px;">Buy Now</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">Buy Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +390,7 @@
                                         Pure, aromatic Indian spices sourced directly from managed farms for authentic taste and premium quality.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;margin-top: 20px;">View Spices</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">View Spices</a>
                                     </div>
                                 </div>
                             </div>
@@ -406,7 +406,7 @@
                                         Fresh, seasonal vegetables grown by Indian farmers under expert management for maximum nutrition.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;margin-top: 20px;">View Vegetables</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">View Vegetables</a>
                                     </div>
                                 </div>
                             </div>
@@ -1043,7 +1043,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="meta-title">
-                                            <span class="post-date">12 Sep, 2022</span>
+                                            <span class="post-date">12 April 2026</span>
                                         </div>
                                         <h5><a >Meant widow equal an share least part. </a></h5>
                                     </div>
@@ -1056,7 +1056,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="meta-title">
-                                            <span class="post-date">18 Jul, 2022</span>
+                                            <span class="post-date">13 April 2026</span>
                                         </div>
                                         <h5><a>Future Plan & Strategy for Consutruction </a></h5>
                                     </div>
