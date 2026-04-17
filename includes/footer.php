@@ -150,6 +150,109 @@
     
     <!-- jQuery Frameworks
     ============================================= -->
+    <!-- Order Modal -->
+    <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content overflow-hidden border-0 radius">
+                <div class="modal-header bg-theme text-light border-0 py-3">
+                    <h5 class="modal-title" id="orderModalLabel">Request a Quote</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="form-row-wrapper">
+                        <form class="b2b-form order-form-styles" id="b2bOrderForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Full Name *" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control" placeholder="Business Email *" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" placeholder="Phone Number *" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Company Name *" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <select class="form-select" required>
+                                        <option value="">Business Type *</option>
+                                        <option>Retailer</option>
+                                        <option>Wholesaler</option>
+                                        <option>Distributor</option>
+                                        <option>Restaurant / Hotel</option>
+                                        <option>Exporter</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="City / State *" required>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <select class="form-select" required>
+                                        <option value="">Products *</option>
+                                        <option>Fresh Vegetables</option>
+                                        <option>Spices</option>
+                                        <option>Dairy</option>
+                                        <option>Herbs</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <select class="form-select" required>
+                                        <option value="">Quantity *</option>
+                                        <option>< 50 kg</option>
+                                        <option>50–200 kg</option>
+                                        <option>200–500 kg</option>
+                                        <option>500+ kg</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <select class="form-select" required>
+                                        <option value="">Frequency *</option>
+                                        <option>One-time</option>
+                                        <option>Weekly</option>
+                                        <option>Monthly</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <textarea class="form-control" rows="3" placeholder="Requirements"></textarea>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                    <button type="submit" class="btn btn-theme secondary btn-md radius animation">Request Quote</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        #orderModal .modal-content {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        #orderModal .bg-theme {
+            background-color: #c1c439 !important;
+        }
+        #orderModal .btn-theme.secondary {
+            background-color: #aa7d39;
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+        }
+        #orderModal .form-control, #orderModal .form-select {
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            font-size: 14px;
+        }
+        #orderModal .form-control:focus, #orderModal .form-select:focus {
+            border-color: #c1c439;
+            box-shadow: 0 0 0 0.25rem rgba(193, 196, 57, 0.25);
+        }
+    </style>
+
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.appear.js"></script>

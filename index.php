@@ -159,7 +159,7 @@
                                         Hand-picked, seasonal vegetables grown by Indian farmers under our direct supervision for ultimate freshness.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
                                     </div>
                                     
                                 </div>
@@ -176,7 +176,7 @@
                                         Premium Indian spices managed from seed to harvest to bring authentic flavors to your table.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@
                                         Supporting and managing Indian farmers to adopt sustainable practices for a better agricultural future.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@
                                         Pure, aromatic Indian spices sourced directly from managed farms for authentic taste and premium quality.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +224,7 @@
                                         Fresh, seasonal vegetables grown by Indian farmers under expert management for maximum nutrition.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
                                     </div>
                                 </div>
                             </div>

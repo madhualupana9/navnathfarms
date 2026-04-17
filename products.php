@@ -275,7 +275,7 @@
                                         <p class="card-text" style="color: #aa7d39;font-size: 22px;">Basmati Rice </p>
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                              
                       </div>
@@ -286,7 +286,7 @@
                                         <p class="card-text" style="color: #aa7d39;font-size: 22px;">Sona Masoori </p>
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -296,7 +296,7 @@
                                         <p class="card-text" style="color: #aa7d39;font-size: 22px;">Jasmine Rice </p>
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -307,7 +307,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                       </div>
                   </div>
@@ -321,7 +321,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                              
                       </div>
@@ -333,7 +333,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -344,7 +344,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -355,7 +355,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                       </div>
                   </div>
@@ -374,7 +374,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                              
                       </div>
@@ -386,7 +386,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
                                        
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -397,7 +397,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Aromatic</span>
                                        
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -407,7 +407,7 @@
                                         <p class="card-text" style="color: #aa7d39;font-size: 22px;">Coriander <span style="color: #000;font-size: 16px;"></span></p>
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">100% Natural</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                       </div>
                   </div>
@@ -426,7 +426,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                              
                       </div>
@@ -438,7 +438,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -449,7 +449,7 @@
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
@@ -459,7 +459,7 @@
                                         <p class="card-text" style="color: #aa7d39;font-size: 22px;">Onion <span style="color: #000;font-size: 16px;"></span></p>
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation">Order</a></div>
+                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
                                 </div>
                       </div>
                   </div>
