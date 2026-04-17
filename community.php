@@ -14,7 +14,7 @@
     border-radius: 50%;
     background: url('your-image.jpg') center/cover no-repeat;
     border: 10px solid white;
-}
+    }
     /*.har-pro:hover{
         width: 96%;
     }*/
