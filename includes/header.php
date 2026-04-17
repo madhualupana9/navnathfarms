@@ -3,14 +3,48 @@
     
 
 <head>
-        <!--=============== basic  ===============-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="robots" content="Premium Spices and Fresh Vegetables sourced directly from Indian farmers. We manage sustainable farming to bring you natural, high-quality agricultural products."/>
-        <meta name="description" content="Nav Nath Farm's connects you with the finest Indian spices and organic vegetables. Our expert farmer management ensures sustainable practices and premium quality in every harvest." />
-        <!-- ========== Favicon Icon ========== -->
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <?php
+    $defaultTitle = "Nav Nath Farm's | Premium Indian Spices & Fresh Vegetables";
+    $defaultDesc = "Nav Nath Farm's connects you with the finest Indian spices and organic vegetables sourced directly from managed Indian farms. Experience 100% natural, sustainable produce.";
+    $defaultKeywords = "Indian spices, fresh vegetables, sustainable farming, organic produce, farm to table, turmeric, chilli, ginger, onion, natural farming, farmer empowerment";
+    
+    $title = isset($pageTitle) ? $pageTitle . " | Nav Nath Farm's" : $defaultTitle;
+    $description = isset($metaDescription) ? $metaDescription : $defaultDesc;
+    $keywords = isset($metaKeywords) ? $metaKeywords : $defaultKeywords;
+    ?>
+    
+    <title><?php echo $title; ?></title>
+    <meta name="description" content="<?php echo $description; ?>">
+    <meta name="keywords" content="<?php echo $keywords; ?>">
+    <meta name="author" content="Nav Nath Farm's">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://navnathfarms.com/">
+    <meta property="og:title" content="<?php echo $title; ?>">
+    <meta property="og:description" content="<?php echo $description; ?>">
+    <meta property="og:image" content="https://navnathfarms.com/assets/img/Navanath-Farms-Final-Logo2.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://navnathfarms.com/">
+    <meta property="twitter:title" content="<?php echo $title; ?>">
+    <meta property="twitter:description" content="<?php echo $description; ?>">
+    <meta property="twitter:image" content="https://navnathfarms.com/assets/img/Navanath-Farms-Final-Logo2.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://navnathfarms.com<?php echo $_SERVER['PHP_SELF']; ?>">
+
+    <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-<title>Nav Nath Farm's | Home</title>
+    
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">

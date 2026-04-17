@@ -1,5 +1,9 @@
-  
-<?php require 'includes/header.php'; ?>
+<?php 
+$pageTitle = "Home";
+$metaDescription = "Nav Nath Farm's connects you with the finest Indian spices and organic vegetables. Our expert farmer management ensures sustainable practices and premium quality in every harvest.";
+$metaKeywords = "Indian Farmer Managed Excellence, 100% Indian Spices, Fresh Vegetables, Sustainable Farming";
+require 'includes/header.php'; 
+?>
 
             <!-- Start Banner Area 
     ============================================= -->

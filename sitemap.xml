@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://navnathfarms.com/index.php</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://navnathfarms.com/about.php</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://navnathfarms.com/products.php</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://navnathfarms.com/process.php</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://navnathfarms.com/community.php</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://navnathfarms.com/contact.php</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

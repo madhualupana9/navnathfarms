@@ -1,4 +1,9 @@
- <?php require 'includes/header.php'; ?>
+<?php 
+$pageTitle = "Our Process";
+$metaDescription = "Learn about our sustainable farming process and how we manage Indian farmers to bring you premium quality spices and vegetables.";
+$metaKeywords = "Farming Process, Sustainable Agriculture, Farmer Management, High-Quality Spices";
+require 'includes/header.php'; 
+?>
 
 <style>
     .breadcrumb-area h1{

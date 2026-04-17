@@ -1,4 +1,9 @@
- <?php require 'includes/header.php'; ?>
+<?php 
+$pageTitle = "Our Products";
+$metaDescription = "Explore our wide range of premium Indian spices and fresh farm vegetables, including turmeric, chilli, ginger, onion, and more.";
+$metaKeywords = "Fresh Vegetables, Indian Spices, Turmeric, Chilli Powder, Black Rice, Sona Masoori";
+require 'includes/header.php'; 
+?>
 
 <style>
 

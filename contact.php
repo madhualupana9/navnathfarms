@@ -1,4 +1,9 @@
- <?php require 'includes/header.php'; ?>
+<?php 
+$pageTitle = "Contact Us";
+$metaDescription = "Get in touch with Nav Nath Farm's for premium Indian spices and vegetables. We are located in Hyderabad, Telangana.";
+$metaKeywords = "Contact Nav Nath Farm's, Hyderabad, Telangana, Spice Inquiry, Fresh Vegetables";
+require 'includes/header.php'; 
+?>
 
 <!-- Start Breadcrumb 
     ============================================= -->

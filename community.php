@@ -1,4 +1,9 @@
- <?php require 'includes/header.php'; ?>
+<?php 
+$pageTitle = "Join Community";
+$metaDescription = "Join the Nav Nath Farm's community to support Indian farmers and get access to 100% natural, fresh agricultural products.";
+$metaKeywords = "Join Community, Support Farmers, Indian Agriculture Community, Sustainable Living";
+require 'includes/header.php'; 
+?>
 
 <style>
     .breadcrumb-area h1{

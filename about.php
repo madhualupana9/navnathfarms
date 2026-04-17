@@ -1,4 +1,9 @@
- <?php require 'includes/header.php'; ?>
+<?php 
+$pageTitle = "About Us";
+$metaDescription = "Learn about Nav Nath Farm's mission to empower Indian farmers and provide high-quality, 100% natural spices and fresh vegetables.";
+$metaKeywords = "About Nav Nath Farm's, Indian Agriculture, Farmer Empowerment, Natural Farming Mission";
+require 'includes/header.php'; 
+?>
 
 <style>
     .breadcrumb-area h1{
