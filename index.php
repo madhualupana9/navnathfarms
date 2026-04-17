@@ -253,7 +253,7 @@
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/icon/1.png" alt="Turmeric">
+                            <img src="assets/img/fresh-products/turmaric-navnath.png" alt="Turmeric">
                             <h5>Turmeric</h5>
                         </a>
                     </div>
@@ -261,7 +261,7 @@
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/icon/2.png" alt="Chilli">
+                            <img src="assets/img/fresh-products/Chilli-navnath.png" alt="Chilli">
                             <h5>Chilli</h5>
                         </a>
                     </div>
@@ -269,7 +269,7 @@
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/icon/3.png" alt="Cabbage">
+                            <img src="assets/img/fresh-products/Cabbage-navnath.png" alt="Cabbage">
                             <h5>Cabbage</h5>
                         </a>
                     </div>
@@ -277,7 +277,7 @@
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/icon/4.png" alt="Ginger">
+                            <img src="assets/img/fresh-products/Ginger-navnath.png" alt="Ginger">
                             <h5>Ginger</h5>
                         </a>
                     </div>
@@ -285,7 +285,7 @@
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/icon/5.png" alt="Onion">
+                            <img src="assets/img/fresh-products/Onion-navnath.png" alt="Onion">
                             <h5>Onion</h5>
                         </a>
                     </div>
@@ -293,7 +293,7 @@
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/icon/6.png" alt="Coriander">
+                            <img src="assets/img/fresh-products/Coriander-navnath.png" alt="Coriander">
                             <h5>Coriander</h5>
                         </a>
                     </div>
