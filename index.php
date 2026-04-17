@@ -1,186 +1,6 @@
-  <!DOCTYPE HTML>
-<html lang="en">
-    
+  
+<?php require 'includes/header.php'; ?>
 
-<head>
-        <!--=============== basic  ===============-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="robots" content="Premium Spices and Fresh Vegetables sourced directly from Indian farmers. We manage sustainable farming to bring you natural, high-quality agricultural products."/>
-        <meta name="description" content="Nav Nath Farm's connects you with the finest Indian spices and organic vegetables. Our expert farmer management ensures sustainable practices and premium quality in every harvest." />
-        <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-    <!-- ========== Start Stylesheet ========== -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/themify-icons.css" rel="stylesheet">
-    <link href="assets/css/elegant-icons.css" rel="stylesheet">
-    <link href="assets/css/flaticon-set.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/navnath.css" rel="stylesheet">
-    <link href="assets/css/helper.css" rel="stylesheet">
-    <link href="assets/css/shop.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/unit-test.css" rel="stylesheet">
-    <link href="assets/style.css" rel="stylesheet">
-    <!-- ========== End Stylesheet ========== -->
-    </head>
-    <body>
-    <div class="top-bar-area text-light" style="background: #c1c439;">
-        <div class="container">
-            <div class="row align-center">
-                <div class="col-lg-9">
-                    <div class="flex-item left">
-                        <p>
-                            That's right, we only sell 100% natural
-                        </p>
-                        <ul>
-                            <li>
-                                <i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana.
-                            </li>
-                            <li>
-                                <i class="fas fa-phone-alt"></i> +91 9876543219
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 text-end">
-                    <div class="social">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Header Top -->
-
-    <!-- Header 
-    ============================================= -->
-    <header>
-        <!-- Start Navigation -->
-        <nav class="navbar mobile-sidenav inc-shape navbar-common navbar-sticky navbar-default validnavs">
-
-            <!-- Start Top Search -->
-            <div class="top-search">
-                <div class="container-xl">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                        <input type="text" class="form-control" placeholder="Search">
-                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                    </div>
-                </div>
-            </div>
-            <!-- End Top Search -->
-
-            <div class="container d-flex justify-content-between align-items-center">            
-                
-
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" class="logo" alt="NavNathFarms Logo">
-                    </a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Main Nav -->
-                <div class="main-nav-content">
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-
-                        <img src="assets/img/logo.png" alt="NavNathFarms Logo">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-times"></i>
-                        </button>
-                        
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li>
-                                <a  href="index.html"  >Home</a>
-                            </li>
-                            <li>
-                                <a  href="about.html">About Us</a>
-                            </li>
-                           <li class="dropdown">
-                                <a  href="products.html">Products</a>
-                            </li>
-                            <li>
-                                <a  href="community.html" >Join Community</a>
-                                
-                            </li>
-                            <li>
-                                <a  href="process.html" >Our Process</a>
-                                
-                            </li>
-                            <li>
-                                <a  href="contact.html">Contact Us</a>
-                                
-                            </li>
-                           
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-
-                    <div class="attr-right">
-                        <!-- Start Atribute Navigation -->
-                        <!-- <div class="attr-nav">
-                            <ul>
-                                <li class="contact">
-                                    <div class="call">
-                                        <div class="icon">
-                                            <i class="fas fa-envelope"></i>
-                                        </div>
-                                        <div class="info">
-                                            <p>Have any Questions?</p>
-                                            <h5><a href="mailto:info@navnathfarms.com">info@navnathfarms.com</a></h5>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div> -->
-                        <!-- End Atribute Navigation -->
-
-                    </div>
-
-                    <!-- Overlay screen for menu -->
-                    <div class="overlay-screen"></div>
-                    <!-- End Overlay screen for menu -->
-
-                </div>
-                <!-- Main Nav -->
-
-            </div>   
-        </nav>
-        <!-- End Navigation -->
-    </header>
-    <!-- End Header -->
-
-<title>Nav Nath Farm's | Home</title>
             <!-- Start Banner Area 
     ============================================= -->
     <div class="banner-area navigation-circle text-light banner-style-one zoom-effect overflow-hidden">
@@ -202,7 +22,7 @@
                                         Empowering Indian farmers to produce the world's finest spices and freshest vegetables through sustainable management.
                                     </p>
                                     <div class="button">
-                                        <a href="products.html" class="btn btn-theme secondary btn-md radius animation" >Discover More</a>
+                                        <a href="products.php" class="btn btn-theme secondary btn-md radius animation" >Discover More</a>
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +44,7 @@
                                         From turmeric to fresh greens, we bridge the gap between dedicated Indian farmers and your kitchen.
                                     </p>
                                     <div class="button">
-                                        <a href="products.html" class="btn btn-theme secondary btn-md radius animation">Discover More</a>
+                                        <a href="products.php" class="btn btn-theme secondary btn-md radius animation">Discover More</a>
                                     </div>
                                 </div>
                             </div>
@@ -257,10 +77,8 @@
             <div class="row align-center">
                 <div class="col-xl-5 col-lg-6 about-style-one pr-50 pr-md-15 pr-xs-15">
                     <div class="thumb">
-                        <img src="assets/img/about/5.jpg" alt="Nature House">
-                        <div class="sub-item">
-                            <img src="assets/img/about/1.jpg" alt="Person">
-                        </div>
+                        <img src="assets/img/navnath/farmer.jpg" alt="Indian Farmer">
+                       
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6 about-style-one">
@@ -277,17 +95,17 @@
                         </div>
                         <div class="col-xl-5 col-lg-12 pl-50 pl-md-15 pl-xs-15">
                             <div class="top-product-item">
-                                <img src="assets/img/icon/1.svg" alt="fruit icon">
+                                <img src="assets/img/icon/1.svg" alt="spice icon">
                                 <h5><a >Natural Farming</a></h5>
                                 <p>
-                                    Resolve parties but trying she shewing of moment.
+                                    Using traditional methods and natural inputs for 100% chemical-free produce.
                                 </p>
                             </div>
                             <div class="top-product-item">
-                                <img src="assets/img/icon/2.svg" alt="tree icon">
+                                <img src="assets/img/icon/2.svg" alt="veg icon">
                                 <h5><a >Quality Products</a></h5>
                                 <p>
-                                    Always parties but trying she shewing of moment.
+                                    Rigorous quality checks to deliver the most aromatic and fresh harvest.
                                 </p>
                             </div>
                         </div>
@@ -318,7 +136,7 @@
                             <p>
                                 We specialize in managing Indian farmers to produce high-quality spices and fresh vegetables. Our process ensures that every product is sustainably grown, ethically sourced, and packed with authentic Indian flavors.
                             </p>
-                            <a href="product.html" class="btn btn-theme btn-md radius animation">Discover More</a>
+                            <a href="product.php" class="btn btn-theme btn-md radius animation">Discover More</a>
                         </div>
                     </div>
                 </div>
@@ -338,10 +156,10 @@
                                     </div>
                                     <h5><a >Fresh Vegetables</a></h5>
                                     <p>
-                                        Continue indulged speaking technical out horrible domestic position. Seeing rather you.
+                                        Hand-picked, seasonal vegetables grown by Indian farmers under our direct supervision for ultimate freshness.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">Buy Now</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
                                     </div>
                                     
                                 </div>
@@ -351,14 +169,14 @@
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/thumb/2.png" alt="Image Not Found">
+                                        <img src="assets/img/thumb/2.png" alt="Spices">
                                     </div>
-                                    <h5><a >Agricultural Products</a></h5>
+                                    <h5><a >Aromatic Spices</a></h5>
                                     <p>
-                                        Continue indulged speaking technical out horrible domestic position. Seeing rather you.
+                                        Premium Indian spices managed from seed to harvest to bring authentic flavors to your table.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">Buy Now</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -367,14 +185,14 @@
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/thumb/3.png" alt="Image Not Found">
+                                        <img src="assets/img/thumb/3.png" alt="Indian Farmers">
                                     </div>
-                                    <h5><a>Natural Products</a></h5>
+                                    <h5><a>Farmer Empowerment</a></h5>
                                     <p>
-                                        Continue indulged speaking technical out horrible domestic position. Seeing rather you.
+                                        Supporting and managing Indian farmers to adopt sustainable practices for a better agricultural future.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">Buy Now</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +208,7 @@
                                         Pure, aromatic Indian spices sourced directly from managed farms for authentic taste and premium quality.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">View Spices</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -406,7 +224,7 @@
                                         Fresh, seasonal vegetables grown by Indian farmers under expert management for maximum nutrition.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">View Vegetables</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -493,7 +311,7 @@
             <div class="row align-center">
                 <div class="col-lg-6 choose-us-style-one">
                     <div class="thumb">
-                        <img src="assets/img/about/1.jpg" alt="Image Not Found">
+                        <img src="assets/img/navnath/farmer2.jpg" alt="Image Not Found">
                         <div class="shape">
                             <img class="wow fadeInDown" src="assets/img/shape/22.png" alt="Image not found">
                         </div>
@@ -573,10 +391,10 @@
                     <div class="testimonial-info text-center">
                         <h4>Testimonial</h4>
                         <div class="thumb">
-                            <img src="assets/img/farmers/1.jpg" alt="Image Not Found">
-                            <img src="assets/img/farmers/4.jpg" alt="Image Not Found">
-                            <img src="assets/img/farmers/2.jpg" alt="Image Not Found">
-                            <img src="assets/img/farmers/3.jpg" alt="Image Not Found">
+                            <img src="assets/img/navnath/testimonials/image1.jpg" alt="Rajesh Kumar">
+                            <img src="assets/img/navnath/testimonials/image2.jpg" alt="Priya Sharma">
+                            <img src="assets/img/navnath/testimonials/image3.jpg" alt="Amit Patel">
+                            <img src="assets/img/navnath/testimonials/image4.jpeg" alt="Sunita Devi">
                         </div>
                     </div>
                 </div>
@@ -591,13 +409,13 @@
                                     <div class="item">
                                         <div class="content">
                                             <p>
-                                                “Targetingconsultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point.”
+                                                “The quality of turmeric and red chilli I received from Nav Nath Farm's is exceptional. You can truly taste the difference of natural farming. It reminds me of the authentic flavors from my grandmother's kitchen.”
                                             </p>
                                         </div>
                                         <div class="provider">
                                             <div class="info">
-                                                <h4>Matthew J. Wyman</h4>
-                                                <span>Senior Consultant</span>
+                                                <h4>Rajesh Kumar</h4>
+                                                <span>Traditional Farmer</span>
                                             </div>
                                         </div>
                                     </div>
@@ -610,13 +428,13 @@
                                     <div class="item">
                                         <div class="content">
                                             <p>
-                                                “Consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point.”
+                                                “As someone who prioritizes organic living, finding a reliable source for fresh vegetables has been a blessing. The direct connection to Indian farmers ensures that I'm getting the freshest produce while supporting local communities.”
                                             </p>
                                         </div>
                                         <div class="provider">
                                             <div class="info">
-                                                <h4>Anthom Bu Spar</h4>
-                                                <span>Marketing Manager</span>
+                                                <h4>Priya Sharma</h4>
+                                                <span>Health & Wellness Blogger</span>
                                             </div>
                                         </div>
                                     </div>
@@ -629,13 +447,13 @@
                                     <div class="item">
                                         <div class="content">
                                             <p>
-                                                “Business discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point.”
+                                                “Managing farms to produce high-quality spices is no small feat. Nav Nath Farm's commitment to sustainable practices and empowering small-scale Indian farmers is truly commendable. Their spices are pure and aromatic.”
                                             </p>
                                         </div>
                                         <div class="provider">
                                             <div class="info">
-                                                <h4>Metho k. Partho</h4>
-                                                <span>Senior Developer</span>
+                                                <h4>Amit Patel</h4>
+                                                <span>Agricultural Consultant</span>
                                             </div>
                                         </div>
                                     </div>
@@ -812,7 +630,7 @@
                     <div class="contact-form-style-one mb-md-50">
                         <h5 class="sub-title">Have Questions?</h5>
                         <h2 class="heading">Send a message</h2>
-                        <form action="https://validthemes.live/themeforest/agrul/assets/mail/contact.html" method="POST" class="contact-form contact-form">
+                        <form action="" method="POST" class="contact-form contact-form">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
@@ -954,7 +772,7 @@
                                 </ul>
                             </div>
                             <h4 class="title">
-                                <a>Considered imprudence of he friendship day</a>
+                                <a>Selecting the finest seeds for premium spices.</a>
                             </h4>
                         </div>
                     </div>
@@ -977,7 +795,7 @@
                                 </ul>
                             </div>
                             <h4 class="title">
-                                <a>Overcame breeding or concerns removing past</a>
+                                <a>Sustainable practices in seasonal vegetable farming.</a>
                             </h4>
                         </div>
                     </div>
@@ -987,179 +805,4 @@
     </div>
     <!-- End Blog Area -->
                     
-   <!-- Start Footer 
-    ============================================= -->
-    <footer class="bg-dark text-light" style="background-image: url(assets/img/shape/brush-down.png); background-color: #000000 !important;">
-        <div class="container">
-            <div class="f-items default-padding">
-                <div class="row">
-                    
-                    <!-- Single Itme -->
-                    <div class="col-lg-4 col-md-6 item">
-                        <div class="footer-item about">
-                            <img class="logo" src="assets/img/logo-light.png" alt="Logo">
-                            <p>
-                                Happen active county. Winding morning ambition shyness evident to poor. Because elderly new to the point to main success. Winding morning ambition shyness evident to poor. Because elderly new to the point to main success.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-2 col-md-6 item">
-                        <div class="footer-item link">
-                            <h4 class="widget-title">Explore</h4>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="about.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="community.html">Join Community</a>
-                                </li>
-                                <li>
-                                    <a href="process.html">Our Process</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="footer-item recent-post">
-                            <h4 class="widget-title">Recent Posts</h4>
-                            <ul>
-                                <li>
-                                    <div class="thumb">
-                                        <a >
-                                            <img src="assets/img/thumbs/3.jpg" alt="Thumb">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <div class="meta-title">
-                                            <span class="post-date">12 April 2026</span>
-                                        </div>
-                                        <h5><a >Meant widow equal an share least part. </a></h5>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumb">
-                                        <a >
-                                            <img src="assets/img/thumbs/5.jpg" alt="Thumb">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <div class="meta-title">
-                                            <span class="post-date">13 April 2026</span>
-                                        </div>
-                                        <h5><a>Future Plan & Strategy for Consutruction </a></h5>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="footer-item contact">
-                            <h4 class="widget-title">Contact Info</h4>
-                            <ul>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-home"></i>
-                                    </div>
-                                    <div class="content">
-                                        <strong>Address:</strong>
-                                        Hyderabad, Telangana.
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-envelope"></i>
-                                    </div>
-                                    <div class="content">
-                                        <strong>Email:</strong>
-                                        <a href="mailto:info@navnathfarms.com">info@navnathfarms.com</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fas fa-phone"></i>
-                                    </div>
-                                    <div class="content">
-                                        <strong>Phone:</strong>
-                                        <a href="tel:2151234567">+91 9876543219</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Single Itme -->
-                    
-                </div>
-            </div>
-            <!-- Start Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p>&copy; Copyright 2022. All Rights Reserved by <a>Nav Nath Farm's</a></p>
-                    </div>
-                    <div class="col-lg-6 text-end">
-                        <ul>
-                            <li>
-                                <a>Terms</a>
-                            </li>
-                            <li>
-                                <a>Privacy</a>
-                            </li>
-                            <li>
-                                <a>Support</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Footer Bottom -->
-        </div>
-        <div class="shape-right-bottom">
-            <img src="assets/img/shape/10.png" alt="Image Not Found">
-        </div>
-        <div class="shape-left-bottom">
-            <img src="assets/img/shape/11.png" alt="Image Not Found">
-        </div>
-    </footer>
-    <!-- End Footer -->
-    
-    <!-- jQuery Frameworks
-    ============================================= -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/modernizr.custom.13711.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/progress-bar.min.js"></script>
-    <script src="assets/js/circle-progress.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/count-to.js"></script>
-    <script src="assets/js/jquery.scrolla.min.js"></script>
-    <script src="assets/js/YTPlayer.min.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/loopcounter.js"></script>
-    <script src="assets/js/navnath.js"></script>
-    <script src="assets/js/main.js"></script>
-    
-
-</body>
-</html>
+<?php require 'includes/footer.php'; ?>

@@ -1,17 +1,16 @@
-  <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
     
 
 <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <?php $page = basename($_SERVER['PHP_SELF']);?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="robots" content="Our natural food is carefully sourced from local farmers who use sustainable and natural farming practices. Each bite is bursting with flavour & nutrients, ensuring that you can feel good about what you’ve eating while supporting a healt"/>
-        <meta name="description" content="Our natural food is carefully sourced from local farmers who use sustainable and natural farming practices. Each bite is bursting with flavour & nutrients, ensuring that you can feel good about what you’ve eating while supporting a healt" />
+        <meta name="robots" content="Premium Spices and Fresh Vegetables sourced directly from Indian farmers. We manage sustainable farming to bring you natural, high-quality agricultural products."/>
+        <meta name="description" content="Nav Nath Farm's connects you with the finest Indian spices and organic vegetables. Our expert farmer management ensures sustainable practices and premium quality in every harvest." />
         <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
+<title>Nav Nath Farm's | Home</title>
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
@@ -129,11 +128,7 @@
                                 <a  href="about.php">About Us</a>
                             </li>
                             <li class="dropdown">
-                                <a  class="dropdown-toggle" href="products.php">Products</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="products.php">Product1</a></li>
-                                    <li><a href="products.php">product2</a></li>
-                                </ul>
+                                <a  href="products.php">Products</a>
                             </li>
                             <li>
                                 <a  href="community.php" >Join Community</a>
@@ -184,5 +179,3 @@
         <!-- End Navigation -->
     </header>
     <!-- End Header -->
-
-    

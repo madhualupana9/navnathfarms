@@ -1,6 +1,6 @@
-   <!-- Start Footer 
+<!-- Start Footer 
     ============================================= -->
-    <footer class="bg-dark text-light" style="background-image: url(assets/img/shape/brush-down.png);">
+    <footer class="bg-dark text-light" style="background-image: url(assets/img/shape/brush-down.png); background-color: #000000 !important;">
         <div class="container">
             <div class="f-items default-padding">
                 <div class="row">
@@ -8,9 +8,9 @@
                     <!-- Single Itme -->
                     <div class="col-lg-4 col-md-6 item">
                         <div class="footer-item about">
-                            <img class="logo" src="assets/img/logo-light.png" alt="Logo">
+                            <img class="logo" src="assets/img/Navanath-Farms-Final-Logo2-rmbg.png" alt="Logo">
                             <p>
-                                Happen active county. Winding morning ambition shyness evident to poor. Because elderly new to the point to main success. Winding morning ambition shyness evident to poor. Because elderly new to the point to main success.
+                                Nav Nath Farm's is dedicated to managing Indian farmers to produce high-quality, 100% natural spices and fresh vegetables. We bridge the gap between traditional farming and modern quality standards.
                             </p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                                         <div class="meta-title">
                                             <span class="post-date">12 April 2026</span>
                                         </div>
-                                        <h5><a >Meant widow equal an share least part. </a></h5>
+                                        <h5><a >The secret to authentic Indian spices.</a></h5>
                                     </div>
                                 </li>
                                 <li>
@@ -69,7 +69,7 @@
                                         <div class="meta-title">
                                             <span class="post-date">13 April 2026</span>
                                         </div>
-                                        <h5><a>Future Plan & Strategy for Consutruction </a></h5>
+                                        <h5><a>Empowering small-scale Indian farmers.</a></h5>
                                     </div>
                                 </li>
                             </ul>
@@ -120,7 +120,7 @@
             <div class="footer-bottom">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>&copy; Copyright 2022. All Rights Reserved by <a>Nav Nath Farm's</a></p>
+                        <p>&copy; Copyright 2026. All Rights Reserved by <a>Nav Nath Farm's</a></p>
                     </div>
                     <div class="col-lg-6 text-end">
                         <ul>
