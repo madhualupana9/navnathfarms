@@ -185,7 +185,7 @@
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/thumb/3.png" alt="Indian Farmers">
+                                        <img src="assets/img/fresh-products/Farmer Empowerment.png" alt="Indian Farmers">
                                     </div>
                                     <h5><a>Farmer Empowerment</a></h5>
                                     <p>
@@ -201,7 +201,7 @@
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/thumb/4.png" alt="Image Not Found">
+                                        <img src="assets/img/fresh-products/spices-and-hearbs.png" alt="Image Not Found">
                                     </div>
                                     <h5><a>Spices & Herbs</a></h5>
                                     <p>
@@ -492,7 +492,7 @@
                             <!-- Single Item -->
                             <div class="swiper-slide">
                                 <div class="gallery-style-one">
-                                    <img src="assets/img/gallery/2.jpg" alt="Thumb">
+                                    <img src="assets/img/fresh-products/organic-turmaric.png" alt="Thumb">
                                     <div class="overlay">
                                         <span>Spices</span>
                                         <h4><a>Organic Turmeric</a></h4>
@@ -503,7 +503,7 @@
                             <!-- Single Item -->
                             <div class="swiper-slide">
                                 <div class="gallery-style-one">
-                                    <img src="assets/img/gallery/7.jpg" alt="Thumb">
+                                    <img src="assets/img/fresh-products/Pure Chilli Powder.png" alt="Thumb">
                                     <div class="overlay">
                                         <span>Spices</span>
                                         <h4><a>Pure Chilli Powder</a></h4>
