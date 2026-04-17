@@ -3700,8 +3700,11 @@ nav.navbar.validnavs.inc-shape::after {
 
 .about-style-one .thumb > img {
 	border-radius: 50%;
-	max-width: 100%;
-	margin-left: -10%;
+	width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+	margin-left: 0;
+    display: block;
 }
 
 .about-style-one .thumb .sub-item {
