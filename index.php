@@ -136,7 +136,7 @@
                             <p>
                                 We specialize in managing Indian farmers to produce high-quality spices and fresh vegetables. Our process ensures that every product is sustainably grown, ethically sourced, and packed with authentic Indian flavors.
                             </p>
-                            <a href="product.php" class="btn btn-theme btn-md radius animation">Discover More</a>
+                            <a href="products.php" class="btn btn-theme btn-md radius animation">Discover More</a>
                         </div>
                     </div>
                 </div>
