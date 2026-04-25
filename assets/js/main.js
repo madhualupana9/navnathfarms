@@ -543,40 +543,38 @@
 
 
 		/* ==================================================
-		    Contact Form Validations
+		    Form Submission Handling (Contact & Order)
 		================================================== */
-		$('.contact-form').each(function() {
-			var formInstance = $(this);
-			formInstance.submit(function() {
+		$(document).on('submit', '.contact-form, #b2bOrderForm', function(e) {
+            e.preventDefault();
+            var formInstance = $(this);
+            var action = formInstance.attr('action') || (formInstance.hasClass('contact-form') ? 'contact-form.php' : 'order-form.php');
+            var submitBtn = formInstance.find('button[type="submit"]');
+            var originalBtnText = submitBtn.html();
+            var messageContainer = formInstance.find('.alert-msg, #orderMessage');
 
-				var action = $(this).attr('action');
+            // Start submission immediately
+            submitBtn.html('<i class="fa fa-spinner fa-spin"></i> Submitting...').prop('disabled', true);
+            messageContainer.slideUp(300);
 
-				$("#message").slideUp(750, function() {
-					$('#message').hide();
-
-					$('#submit')
-						.after('<img src="assets/img/ajax-loader.gif" class="loader" />')
-						.attr('disabled', 'disabled');
-
-					$.post(action, {
-							name: $('#name').val(),
-							email: $('#email').val(),
-							phone: $('#phone').val(),
-							comments: $('#comments').val()
-						},
-						function(data) {
-							document.getElementById('message').innerHTML = data;
-							$('#message').slideDown('slow');
-							$('.contact-form img.loader').fadeOut('slow', function() {
-								$(this).remove()
-							});
-							$('#submit').removeAttr('disabled');
-						}
-					);
-				});
-				return false;
-			});
-		});
+            $.ajax({
+                type: 'POST',
+                url: action,
+                data: formInstance.serialize(),
+                success: function(data) {
+                    messageContainer.html(data).slideDown('slow');
+                    submitBtn.html(originalBtnText).prop('disabled', false);
+                    if (data.indexOf('alert-success') !== -1) {
+                        formInstance[0].reset();
+                    }
+                },
+                error: function() {
+                    messageContainer.html('<div class="alert alert-danger">An error occurred. Please try again.</div>').slideDown('slow');
+                    submitBtn.html(originalBtnText).prop('disabled', false);
+                }
+            });
+            return false;
+        });
 
 	}); // end document ready function
 	

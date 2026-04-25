@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Join Community";
-$metaDescription = "Join the Nav Nath Farm's community to support Indian farmers and get access to 100% natural, fresh agricultural products.";
-$metaKeywords = "Join Community, Support Farmers, Indian Agriculture Community, Sustainable Living";
+$metaDescription = "Join the Navanath Natural Farms community to support traditional farming and get access to 100% natural, nutrient-rich produce.";
+$metaKeywords = "Join Community, Traditional Farming, Natural Farming, Sustainable Living, Navanath Natural Farms";
 require 'includes/header.php'; 
 ?>
 
@@ -49,7 +49,7 @@ require 'includes/header.php';
             <div class="row align-center">
                 <div class="col-lg-5 choose-us-style-one">
                     <p style="font-size: 26px;font-weight: 600;color: #aa7d39;">Join hands in harvesting a <br> SUSTAINABLE FUTURE</p>
-                    <p style="font-weight: 600;">At Nav Nath Farms, we believe that true sustainability starts with community. By joining our network, you become part of a movement dedicated to preserving traditional farming wisdom and promoting eco-friendly agricultural practices. Together, we can ensure a healthier planet and more nutritious food for generations to come. Join us in our mission to bridge the gap between rural farmers and conscious consumers.</p>
+                    <p style="font-weight: 600;">At Navanath Natural Farms, we believe that true sustainability starts with community. By joining our network, you become part of a movement dedicated to preserving traditional farming wisdom and promoting eco-friendly agricultural practices. Together, we can ensure a healthier planet and more nutritious food for generations to come. Join us in our mission to bridge the gap between traditional farmers and conscious consumers.</p>
                     <!-- <a class="btn btn-theme secondary btn-md radius animation">Fill the form</a> -->
                 </div>
                 <div class="col-lg-7">                   
@@ -71,15 +71,15 @@ require 'includes/header.php';
                     <p style="font-weight: 600;color: #aa7d39;text-align: center;font-size: 22px;padding-top: 20px;">Indian Spices</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/img/vegetables.png" class="img-responsive har-pro circle-img">
-                    <p style="font-weight: 600;color: #aa7d39;text-align: center;font-size: 22px;padding-top: 20px;">Fresh Vegetables</p>
+                    <img src="assets/img/fresh-products/oils-ad-1.png" class="img-responsive har-pro" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover; border: 10px solid white;">
+                    <p style="font-weight: 600;color: #aa7d39;text-align: center;font-size: 22px;padding-top: 20px;">Cold-Pressed Oils</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/img/millets.png" class="img-responsive har-pro">
+                    <img src="assets/img/fresh-products/millets-ad-1.png" class="img-responsive har-pro">
                     <p style="font-weight: 600;color: #aa7d39;text-align: center;font-size: 22px;padding-top: 20px;">Millets</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/img/rice.png" class="img-responsive har-pro">
+                    <img src="assets/img/fresh-products/imag1-1.png" class="img-responsive har-pro">
                     <p style="font-weight: 600;color: #aa7d39;text-align: center;font-size: 22px;padding-top: 20px;">Indigenous Rice</p>
                 </div>
             </div>

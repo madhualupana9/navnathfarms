@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "About Us";
-$metaDescription = "Learn about Nav Nath Farm's mission to empower Indian farmers and provide high-quality, 100% natural spices and fresh vegetables.";
-$metaKeywords = "About Nav Nath Farm's, Indian Agriculture, Farmer Empowerment, Natural Farming Mission";
+$metaDescription = "Learn about Navanath Natural Farms mission to bring back the wisdom of traditional farming and provide 100% natural, nutrient-rich produce.";
+$metaKeywords = "About Navanath Natural Farms, Traditional Farming, Natural Farming Mission, Purity & Health";
 require 'includes/header.php'; 
 ?>
 
@@ -38,16 +38,16 @@ require 'includes/header.php';
             <div class="farmer-content-top">
                 <div class="row">
                     <div class="col-lg-7 right-info">
-                        <h2>Indian Farmer Management &</h2>
-                        <span style="color: #c1c439;font-size: 46px;text-transform: capitalize;margin-bottom: 0px;margin-top: 0px;">Spice Excellence</span>
+                        <h2>Bringing Back the Wisdom of</h2>
+                        <span style="color: #c1c439;font-size: 46px;text-transform: capitalize;margin-bottom: 0px;margin-top: 0px;">Traditional Farming</span>
                         <p>
-                            Nav Nath Farm's is dedicated to managing and empowering Indian farmers to produce the highest quality spices and fresh vegetables. We believe in bridging the gap between traditional Indian agriculture and modern quality standards. Our expert management ensures that every product, from aromatic turmeric to seasonal greens, is grown with care, integrity, and deep respect for the land.
+                            At <strong>Navanath Natural Farm</strong>, we are not just farmers we are guardians of purity, tradition, and health. With every grain, spice, and drop of oil, we reconnect you to natural nutrition and chemical-free living. Our mission is to provide pure, nutrient-rich produce grown through cow-based natural farming practices.
                         </p>
                         <ul class="team-list mt-25">
-                            <li>Comprehensive management of Indian farming communities.</li>
-                            <li>Specialization in premium Indian spices and organic vegetables.</li>
-                            <li>Direct farm-to-table supply chain ensuring maximum freshness.</li>
-                            <li>Sustainable practices and fair compensation for all our farmers.</li>
+                            <li>100% chemical-free, nutrient-rich produce.</li>
+                            <li>Cow-based natural farming practices.</li>
+                            <li>Specialization in indigenous rice, millets, and cold-pressed oils.</li>
+                            <li>Sustainable practices and 100% natural inputs.</li>
                         </ul>
                     </div>
                     <div class="col-lg-5">
@@ -67,7 +67,7 @@ require 'includes/header.php';
             <div class="row align-center">
                 <div class="col-lg-6 choose-us-style-one">
                     <h2 class="title" style="font-size: 46px;font-weight: 500;color: #aa7d39">What <span style="color: #c1c439;">we do</span> ?</h2>
-                    <p style="font-size: 22px;font-weight: 500;color: #000;">Managing and training Indian farmers to produce world-class spices and vegetables.</p>
+                    <p style="font-size: 22px;font-weight: 500;color: #000;">Practicing and promoting traditional farming to produce world-class natural produce.</p>
                 </div>
                 <div class="col-lg-6 choose-us-style-one">
                     <div class="thumb">

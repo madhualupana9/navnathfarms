@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Our Products";
-$metaDescription = "Explore our wide range of premium Indian spices and fresh farm vegetables, including turmeric, chilli, ginger, onion, and more.";
-$metaKeywords = "Fresh Vegetables, Indian Spices, Turmeric, Chilli Powder, Black Rice, Sona Masoori";
+$metaDescription = "Discover our range of pure and natural farm produce, including indigenous rice, millets, organic turmeric, cold-pressed oils, and more.";
+$metaKeywords = "Indigenous Rice, Millets, Organic Turmeric, Cold-Pressed Oils, Chilli Powder, Pulses, Navanath Natural Farms";
 require 'includes/header.php'; 
 ?>
 
@@ -49,7 +49,21 @@ require 'includes/header.php';
     transition: 0.5s ease;
     border-radius: 0;
     transform: perspective(3em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-description {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
  .card:hover {
@@ -251,7 +265,7 @@ require 'includes/header.php';
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Get Healthy Now</h1>
-                    <p style="text-align: left;font-size: 30px;font-weight: 600;color: #aa7d39;">Browse Fresh Now</p>
+                    <p style="text-align: left;font-size: 30px;font-weight: 600;color: #aa7d39;">Browse Our Range</p>
                     <!-- <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
@@ -270,202 +284,149 @@ require 'includes/header.php';
               <div class="tabs">
 
                 <input type="radio" name="tabs" id="tabone" checked="checked">
-                <label for="tabone"><img src="assets/img/rice.png" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"> Paddy / Pulses</label>
+                <label for="tabone"><img src="assets/img/paddy.jpg" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"> Rice & Millets</label>
                 <div class="tab">
                   <div class="row" style="margin-bottom: 50px;">
                       <div class="col-md-3">
                                 <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Basmati Rice </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
+                                        <img src="assets/img/fresh-products/31967.jpg" class="img-responsive product-image">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Indigenous Rice Varieties</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Rich in heritage and nutrition. Supports digestion, immunity and well-being. Each variety is cultivated naturally.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">100% Natural</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Indigenous Rice Varieties">Order</a></div>
                                 </div>
                              
                       </div>
                       <div class="col-md-3">
                          <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Sona Masoori </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
+                                        <img src="assets/img/fresh-products/millets-product-2.jpg" class="img-responsive product-image">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Millets</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Forgotten ancient grains. Rich in Fiber, iron, antioxidants. Perfect for diabetics and fitness lovers.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Health & Fitness</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Millets">Order</a></div>
                                 </div> 
                       </div>
-                      <div class="col-md-3">
-                         <div class="card h-100 mb-4">                    
-                                    <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Jasmine Rice </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
-                                    </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
-                                </div> 
-                      </div>
+                      
                       <div class="col-md-3">
                           <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Kolam Rice </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
-                                        
-                                    </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
-                                </div>
-                      </div>
-                  </div>
-                  <div class="row" style="margin-bottom: 50px;">
-                      <div class="col-md-3">
-                       
-                                <div class="card h-100 mb-4">                    
-                                    <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Indrayani Rice </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
-                                        
-                                    </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
-                                </div>
-                             
-                      </div>
-                      <div class="col-md-3">
-                         <div class="card h-100 mb-4">                    
-                                    <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
+                                        <img src="assets/img/fresh-products/black-rice.jpg" class="img-responsive product-image">
                                         <p class="card-text" style="color: #aa7d39;font-size: 22px;">Black Rice </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">A nutrient-dense superfood, rich in antioxidants and anthocyanins. Supports heart health and immunity.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Nutrient Rich</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
-                                </div> 
-                      </div>
-                      <div class="col-md-3">
-                         <div class="card h-100 mb-4">                    
-                                    <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Red Rice </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
-                                        
-                                    </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
-                                </div> 
-                      </div>
-                      <div class="col-md-3">
-                          <div class="card h-100 mb-4">                    
-                                    <div class="card-body text-left">
-                                        <img src="assets/img/paddy.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Ambemohar Rice </p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
-                                        
-                                    </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Black Rice">Order</a></div>
                                 </div>
                       </div>
                   </div>
                 </div>
 
                 <input type="radio" name="tabs" id="tabtwo">
-                <label for="tabtwo"><img src="assets/img/spices.png" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"> Spices</label>
+                <label for="tabtwo"><img src="assets/img/spices.png" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"> Spices & Turmeric</label>
                 <div class="tab">
                   <div class="row" style="margin-bottom: 50px;">
                       <div class="col-md-3">
                                 <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/navnath/products/turmaric.png" class="img-responsive" style="width: 100%;" alt="Turmeric">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Turmeric <span style="color: #000;font-size: 16px;"></span></p>
-                                       
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Premium Quality</span>
+                                        <img src="assets/img/navnath/products/turmaric.png" class="img-responsive product-image" alt="Turmeric">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Organic Turmeric</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Rich in curcumin and aromatic. Organic certified.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Certified Organic</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Organic Turmeric">Order</a></div>
                                 </div>
                              
                       </div>
                       <div class="col-md-3">
                          <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/navnath/products/red chilli.png" class="img-responsive" style="width: 100%;" alt="Red Chilli">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Red Chilli <span style="color: #000;font-size: 16px;"></span></p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
+                                        <img src="assets/img/navnath/products/red chilli.png" class="img-responsive product-image" alt="Red Chilli">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Chilli Powder</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Naturally sun-dried and stone ground. Bold color, authentic flavour. No artificial colors or additives.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Pure & Bold</span>
                                        
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Chilli Powder">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
                          <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/navnath/products/Dry Ginger.png" class="img-responsive" style="width: 100%;" alt="Ginger">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Dry Ginger <span style="color: #000;font-size: 16px;"></span></p>
+                                        <img src="assets/img/navnath/products/Dry Ginger.png" class="img-responsive product-image" alt="Ginger">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Dry Ginger</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Naturally sun-dried and stone ground. Provides relief from digestion issues and adds a warm flavor.</p>
+                                        </div>
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Aromatic</span>
                                        
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Dry Ginger">Order</a></div>
                                 </div> 
                       </div>
                       <div class="col-md-3">
                           <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/navnath/products/Coriander.png" class="img-responsive" style="width: 100%;" alt="Coriander">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Coriander <span style="color: #000;font-size: 16px;"></span></p>
+                                        <img src="assets/img/navnath/products/Coriander.png" class="img-responsive product-image" alt="Coriander">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Coriander</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Naturally sun-dried and stone ground. Adds a refreshing, earthy aroma to your dishes.</p>
+                                        </div>
                                         <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">100% Natural</span>
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Coriander">Order</a></div>
                                 </div>
                       </div>
                   </div>
                 </div>
                 
                 <input type="radio" name="tabs" id="tabthree">
-                <label for="tabthree"><img src="assets/img/thumb/6.png" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"> Vegetables</label>
+                <label for="tabthree"><img src="assets/img/fresh-products/cold-pressed-oils.jpg" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"> Oils & Pulses</label>
                 <div class="tab">
                   <div class="row" style="margin-bottom: 50px;">
                       <div class="col-md-3">
                                 <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/tomato.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Tomato <span style="color: #000;font-size: 16px;"></span></p>
-                                       
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
+                                        <img src="assets/img/fresh-products/cold-pressed-oils.jpg" class="img-responsive product-image">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Cold-Pressed Oils</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Coconut, Groundnut, Sesame & More. Pressed at low temperatures to retain natural aroma, nutrients and purity.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Traditional Purity</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Cold-Pressed Oils">Order</a></div>
                                 </div>
                              
                       </div>
                       <div class="col-md-3">
                          <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/cabbage.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Cabbage <span style="color: #000;font-size: 16px;"></span></p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
+                                        <img src="assets/img/fresh-products/pulses-product.jpg" class="img-responsive product-image">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Pulses</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Organically grown for pure flavor and wholesome nutrition. A naturally healthy choice, cultivated with care.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Organically Grown</span>
                                         
                                     </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Pulses">Order</a></div>
                                 </div> 
-                      </div>
-                      <div class="col-md-3">
-                         <div class="card h-100 mb-4">                    
-                                    <div class="card-body text-left">
-                                        <img src="assets/img/raddish.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Raddish <span style="color: #000;font-size: 16px;"></span></p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
-                                        
-                                    </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
-                                </div> 
-                      </div>
-                      <div class="col-md-3">
-                          <div class="card h-100 mb-4">                    
-                                    <div class="card-body text-left">
-                                        <img src="assets/img/onion.jpg" class="img-responsive" style="width: 100%;">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Onion <span style="color: #000;font-size: 16px;"></span></p>
-                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Farm Fresh</span>
-                                    </div>
-                                    <div class="card-footer"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a></div>
-                                </div>
                       </div>
                   </div>
                 </div>

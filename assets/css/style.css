@@ -6448,6 +6448,11 @@ img.loader {
 	margin-bottom: 20px;
 }
 
+.alert-msg {
+    display: none;
+    width: 100%;
+}
+
 .alert-notification {
     margin-top: 30px;
 }

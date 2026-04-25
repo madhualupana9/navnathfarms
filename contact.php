@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Contact Us";
-$metaDescription = "Get in touch with Nav Nath Farm's for premium Indian spices and vegetables. We are located in Hyderabad, Telangana.";
-$metaKeywords = "Contact Nav Nath Farm's, Hyderabad, Telangana, Spice Inquiry, Fresh Vegetables";
+$metaDescription = "Get in touch with Navanath Natural Farms for pure and natural produce. We are located in Hyderabad, Telangana.";
+$metaKeywords = "Contact Navanath Natural Farms, Hyderabad, Telangana, Natural Farming, Traditional Produce";
 require 'includes/header.php'; 
 ?>
 
@@ -34,7 +34,11 @@ require 'includes/header.php';
                     <div class="contact-form-style-one">
                         <h5 class="sub-title">Have Questions?</h5>
                         <h2 class="heading">Send A Message</h2>
-                        <form action="contact-form.php" method="POST" class="contact-form contact-form">
+                        <form action="contact-form.php" method="POST" class="contact-form">
+                            <!-- Alert Message -->
+                            <div class="col-lg-12 alert-notification">
+                                <div class="alert-msg"></div>
+                            </div>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
@@ -71,10 +75,6 @@ require 'includes/header.php';
                                     </button>
                                 </div>
                             </div>
-                            <!-- Alert Message -->
-                            <div class="col-lg-12 alert-notification">
-                                <div id="message" class="alert-msg"></div>
-                            </div>
                         </form>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ require 'includes/header.php';
                             </span>
                         </h2>
                         <p>
-                            Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.
+                            Reach out to us to bring back the wisdom of traditional farming to your home. We are here to help you reconnect with natural nutrition.
                         </p>
                         <ul>
                             <li class="wow fadeInUp" data-wow-delay="300ms">
@@ -99,7 +99,8 @@ require 'includes/header.php';
                                 <div class="info">
                                     <h5 class="title">Our Location</h5>
                                     <p>
-                                        Hyderabad <br> Telangana, India.
+                                        Plot 87, Rd No: 2, Mangapuram, <br> Old Alwal, Hyderabad, <br> Telangana - 500010 <br>
+                                        <strong>GST : 36AARCM1685M1ZO</strong>
                                     </p>
                                 </div>
                             </li>
@@ -109,7 +110,7 @@ require 'includes/header.php';
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Call Us</h5>
-                                    <a href="#">+91 9876543219</a>
+                                    <a href="tel:+918520826624">+91 85208 26624</a>
                                 </div>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay="500ms">
@@ -118,7 +119,7 @@ require 'includes/header.php';
                                 </div>
                                 <div class="info">
                                     <h5 class="title">Email</h5>
-                                    <a href="mailto:info@navnathfarms.com">info@navnathfarms.com</a>
+                                    <a href="mailto:navanathfarms@gmail.com">navanathfarms@gmail.com</a>
                                 </div>
                             </li>
                         </ul>

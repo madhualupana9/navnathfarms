@@ -10,7 +10,7 @@
                         <div class="footer-item about">
                             <img class="logo" src="assets/img/Navanath-Farms-Final-Logo2-rmbg.png" alt="Logo">
                             <p>
-                                Nav Nath Farm's is dedicated to managing Indian farmers to produce high-quality, 100% natural spices and fresh vegetables. We bridge the gap between traditional farming and modern quality standards.
+                                Navanath Natural Farms is dedicated to bringing back the wisdom of traditional farming with 100% chemical-free, nutrient-rich produce through cow-based natural farming practices.
                             </p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                                     </div>
                                     <div class="content">
                                         <strong>Address:</strong>
-                                        Hyderabad, Telangana.
+                                        Plot 87, Rd No: 2, Mangapuram, Old Alwal, Hyderabad, Telangana - 500010.
                                     </div>
                                 </li>
                                 <li>
@@ -97,7 +97,7 @@
                                     </div>
                                     <div class="content">
                                         <strong>Email:</strong>
-                                        <a href="mailto:info@navnathfarms.com">info@navnathfarms.com</a>
+                                        <a href="mailto:navanathfarms@gmail.com">navanathfarms@gmail.com</a>
                                     </div>
                                 </li>
                                 <li>
@@ -106,7 +106,7 @@
                                     </div>
                                     <div class="content">
                                         <strong>Phone:</strong>
-                                        <a href="tel:2151234567">+91 9876543219</a>
+                                        <a href="tel:+918520826624">+91 85208 26624</a>
                                     </div>
                                 </li>
                             </ul>
@@ -120,7 +120,7 @@
             <div class="footer-bottom">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>&copy; Copyright 2026. All Rights Reserved by <a>Nav Nath Farm's</a></p>
+                        <p>&copy; Copyright 2026. All Rights Reserved by <a>Navanath Natural Farms</a></p>
                     </div>
                     <div class="col-lg-6 text-end">
                         <ul>
@@ -160,64 +160,27 @@
                 </div>
                 <div class="modal-body p-4">
                     <div class="form-row-wrapper">
-                        <form class="b2b-form order-form-styles" id="b2bOrderForm">
+                        <form class="b2b-form order-form-styles" id="b2bOrderForm" action="order-form.php" method="POST">
+                            <input type="hidden" name="product_name" id="modal_product_name">
+                            <div id="orderMessage"></div>
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Full Name *" required>
+                                    <input type="text" name="name" class="form-control" placeholder="Full Name *" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control" placeholder="Business Email *" required>
+                                    <input type="email" name="email" class="form-control" placeholder="Email *" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="tel" class="form-control" placeholder="Phone Number *" required>
+                                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number *" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Company Name *" required>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <select class="form-select" required>
-                                        <option value="">Business Type *</option>
-                                        <option>Retailer</option>
-                                        <option>Wholesaler</option>
-                                        <option>Distributor</option>
-                                        <option>Restaurant / Hotel</option>
-                                        <option>Exporter</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="City / State *" required>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <select class="form-select" required>
-                                        <option value="">Products *</option>
-                                        <option>Fresh Vegetables</option>
-                                        <option>Spices</option>
-                                        <option>Dairy</option>
-                                        <option>Herbs</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <select class="form-select" required>
-                                        <option value="">Quantity *</option>
-                                        <option>< 50 kg</option>
-                                        <option>50–200 kg</option>
-                                        <option>200–500 kg</option>
-                                        <option>500+ kg</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <select class="form-select" required>
-                                        <option value="">Frequency *</option>
-                                        <option>One-time</option>
-                                        <option>Weekly</option>
-                                        <option>Monthly</option>
-                                    </select>
+                                    <input type="text" name="location" class="form-control" placeholder="City / State *" required>
                                 </div>
                                 <div class="col-lg-12 mb-3">
-                                    <textarea class="form-control" rows="3" placeholder="Requirements"></textarea>
+                                    <textarea name="requirements" class="form-control" rows="3" placeholder="Requirements"></textarea>
                                 </div>
                                 <div class="col-lg-12 text-center">
-                                    <button type="submit" class="btn btn-theme secondary btn-md radius animation">Request Quote</button>
+                                    <button type="submit" id="orderSubmit" class="btn btn-theme secondary btn-md radius animation">Request Quote</button>
                                 </div>
                             </div>
                         </form>
@@ -273,6 +236,20 @@
     <script src="assets/js/loopcounter.js"></script>
     <script src="assets/js/navnath.js"></script>
     <script src="assets/js/main.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            var orderModal = document.getElementById('orderModal');
+            if (orderModal) {
+                orderModal.addEventListener('show.bs.modal', function (event) {
+                    var button = event.relatedTarget;
+                    var product = button.getAttribute('data-product');
+                    var modalInput = orderModal.querySelector('#modal_product_name');
+                    modalInput.value = product || 'General Inquiry';
+                });
+            }
+        });
+    </script>
     
 
 </body>

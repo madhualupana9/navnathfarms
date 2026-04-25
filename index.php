@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Home";
-$metaDescription = "Nav Nath Farm's connects you with the finest Indian spices and organic vegetables. Our expert farmer management ensures sustainable practices and premium quality in every harvest.";
-$metaKeywords = "Indian Farmer Managed Excellence, 100% Indian Spices, Fresh Vegetables, Sustainable Farming";
+$metaDescription = "Navanath Natural Farms brings back the wisdom of traditional farming with 100% chemical-free, nutrient-rich produce. Explore our indigenous rice, millets, cold-pressed oils, and more.";
+$metaKeywords = "Navanath Natural Farms, Traditional Farming, Indigenous Rice, Millets, Organic Turmeric, Cold-Pressed Oils, Chilli Powder, Pulses, Chemical-free Produce";
 require 'includes/header.php'; 
 ?>
 
@@ -20,10 +20,10 @@ require 'includes/header.php';
                         <div class="row align-center">
                             <div class="col-xl-7">
                                 <div class="content">
-                                    <h4>100% Indian Spices & Vegetables</h4>
-                                    <h2><strong>Indian Farmer</strong> Managed Excellence</h2>
+                                    <h4>Bringing Back the Wisdom of Traditional Farming</h4>
+                                    <h2><strong>Navanath</strong> Natural Farms</h2>
                                     <p>
-                                        Empowering Indian farmers to produce the world's finest spices and freshest vegetables through sustainable management.
+                                        Reconnecting you to natural nutrition and chemical-free living through cow-based natural farming practices.
                                     </p>
                                     <div class="button">
                                         <a href="products.php" class="btn btn-theme secondary btn-md radius animation" >Discover More</a>
@@ -42,10 +42,10 @@ require 'includes/header.php';
                         <div class="row align-center">
                             <div class="col-xl-7">
                                 <div class="content">
-                                    <h4>Premium Spice Collections</h4>
-                                    <h2><strong>Authentic Indian</strong> Vegetable Harvest</h2>
+                                    <h4>Pure, Nutrient-Rich Produce</h4>
+                                    <h2><strong>Guardians of</strong> Purity & Health</h2>
                                     <p>
-                                        From turmeric to fresh greens, we bridge the gap between dedicated Indian farmers and your kitchen.
+                                        With every grain, spice and drop of oil, we ensure 100% natural and chemical-free nutrition for your family.
                                     </p>
                                     <div class="button">
                                         <a href="products.php" class="btn btn-theme secondary btn-md radius animation">Discover More</a>
@@ -88,28 +88,31 @@ require 'includes/header.php';
                 <div class="col-xl-7 col-lg-6 about-style-one">
                     <div class="row align-center">
                         <div class="col-xl-7 col-lg-12">
-                            <h2 class="heading">Empowering Indian Farmers:<br> Excellence in Spices & Vegetables.</h2>
+                            <h2 class="heading">Bringing Back the Wisdom of<br> Traditional Farming</h2>
+                            <p class="mt-20">
+                                At <strong>Navanath Natural Farm</strong>, we are not just farmers we are guardians of purity, tradition, and health. With every grain, spice, and drop of oil, we reconnect you to natural nutrition and chemical-free living.
+                            </p>
                             <ul class="check-solid-list mt-20">
-                                <li>Direct management of small-scale Indian farmers for premium quality.</li>
-                                <li>Sustainable cultivation of aromatic spices and seasonal vegetables.</li>
-                                <li>Bridging the gap between traditional Indian farming and global standards.</li>
-                                <li>Ensuring fair trade and better livelihoods for our dedicated farming community.</li>
+                                <li>Cow-based natural farming practices.</li>
+                                <li>Free from chemicals, pesticides, and synthetic fertilizers.</li>
+                                <li>100% pure and nutrient-rich produce.</li>
+                                <li>Focus on heritage grains and traditional oils.</li>
                             </ul>
 
                         </div>
                         <div class="col-xl-5 col-lg-12 pl-50 pl-md-15 pl-xs-15">
                             <div class="top-product-item">
-                                <img src="assets/img/icon/1.svg" alt="spice icon">
+                                <img src="assets/img/fresh-products/turmaric-navnath.png" alt="spice icon">
                                 <h5><a >Natural Farming</a></h5>
                                 <p>
                                     Using traditional methods and natural inputs for 100% chemical-free produce.
                                 </p>
                             </div>
                             <div class="top-product-item">
-                                <img src="assets/img/icon/2.svg" alt="veg icon">
+                                <img src="assets/img/icon/2.svg" alt="quality icon">
                                 <h5><a >Quality Products</a></h5>
                                 <p>
-                                    Rigorous quality checks to deliver the most aromatic and fresh harvest.
+                                    Rigorous quality checks to deliver the most authentic and fresh harvest.
                                 </p>
                             </div>
                         </div>
@@ -131,14 +134,14 @@ require 'includes/header.php';
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="left-info">
-                            <h5 class="sub-title">What we do</h5>
-                            <h2 class="title">Authentic Indian Spices <br> & Fresh Farm Vegetables</h2>
+                            <h5 class="sub-title">Our Product Range</h5>
+                            <h2 class="title">Pure & Natural <br> Farm Produce</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-1">
                         <div class="right-info">
                             <p>
-                                We specialize in managing Indian farmers to produce high-quality spices and fresh vegetables. Our process ensures that every product is sustainably grown, ethically sourced, and packed with authentic Indian flavors.
+                                All our farmers follow cow-based natural farming practices free from chemicals, pesticides, and synthetic fertilizers resulting in pure, nutrient-rich produce.
                             </p>
                             <a href="products.php" class="btn btn-theme btn-md radius animation">Discover More</a>
                         </div>
@@ -156,14 +159,14 @@ require 'includes/header.php';
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/thumb/1.png" alt="Image Not Found">
+                                        <img src="assets/img/fresh-products/imag1-1.png" alt="Rice">
                                     </div>
-                                    <h5><a >Fresh Vegetables</a></h5>
+                                    <h5><a >Indigenous Rice Varieties</a></h5>
                                     <p>
-                                        Hand-picked, seasonal vegetables grown by Indian farmers under our direct supervision for ultimate freshness.
+                                        Rich in heritage and nutrition. Supports digestion, immunity and well-being.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Indigenous Rice Varieties">ORDER</a>
                                     </div>
                                     
                                 </div>
@@ -173,14 +176,14 @@ require 'includes/header.php';
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/thumb/2.png" alt="Spices">
+                                        <img src="assets/img/fresh-products/millets-ad-1.png" alt="Millets">
                                     </div>
-                                    <h5><a >Aromatic Spices</a></h5>
+                                    <h5><a >Millets</a></h5>
                                     <p>
-                                        Premium Indian spices managed from seed to harvest to bring authentic flavors to your table.
+                                        Forgotten ancient grains. Rich in fiber, iron, antioxidants. Perfect for diabetics.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Millets">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -189,14 +192,14 @@ require 'includes/header.php';
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/fresh-products/Farmer Empowerment.png" alt="Indian Farmers">
+                                        <img src="assets/img/fresh-products/turmaric-ad.png" alt="Turmeric">
                                     </div>
-                                    <h5><a>Farmer Empowerment</a></h5>
+                                    <h5><a>Organic Turmeric</a></h5>
                                     <p>
-                                        Supporting and managing Indian farmers to adopt sustainable practices for a better agricultural future.
+                                        Rich in curcumin and aromatic. Organic certified. Ideal for culinary use and holistic health.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Organic Turmeric">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -205,14 +208,14 @@ require 'includes/header.php';
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/fresh-products/spices-and-hearbs.png" alt="Image Not Found">
+                                        <img src="assets/img/fresh-products/oils-ad-1.png" alt="Cold-Pressed Oils">
                                     </div>
-                                    <h5><a>Spices & Herbs</a></h5>
+                                    <h5><a>Cold-Pressed Oils</a></h5>
                                     <p>
-                                        Pure, aromatic Indian spices sourced directly from managed farms for authentic taste and premium quality.
+                                        Coconut, Groundnut, Sesame & More. Pressed at low temperatures to retain natural aroma.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Cold-Pressed Oils">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -221,14 +224,14 @@ require 'includes/header.php';
                             <div class="swiper-slide">
                                 <div class="services-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/thumb/6.png" alt="Vegetables">
+                                        <img src="assets/img/fresh-products/chilli-ad.png" alt="Chilli Powder">
                                     </div>
-                                    <h5><a>Vegetable Farming</a></h5>
+                                    <h5><a>Chilli Powder</a></h5> 
                                     <p>
-                                        Fresh, seasonal vegetables grown by Indian farmers under expert management for maximum nutrition.
+                                        Naturally sun-dried and stone ground. Bold color, authentic flavour. No artificial colors.
                                     </p>
                                     <div class="button">
-                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal">ORDER</a>
+                                        <a class="btn btn-theme secondary btn-md radius animation" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Chilli Powder">ORDER</a>
                                     </div>
                                 </div>
                             </div>
@@ -251,7 +254,7 @@ require 'includes/header.php';
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1 mb-50 mb-xs-30">
-                    <h2 class="mask-text" style="background-image: url(assets/img/banner/3.jpg);">Healthy life with fresh products</h2>
+                    <h2 class="mask-text" style="background-image: url(assets/img/banner/3.jpg);">Healthy life with pure products</h2>
                 </div>
                 <div class="product-list-box">
                     <!-- Single Item -->
@@ -273,32 +276,32 @@ require 'includes/header.php';
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/fresh-products/Cabbage-navnath.png" alt="Cabbage">
-                            <h5>Cabbage</h5>
+                            <img src="assets/img/fresh-products/rice-1.png" alt="Rice">
+                            <h5>Rice</h5>
                         </a>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/fresh-products/Ginger-navnath.png" alt="Ginger">
-                            <h5>Ginger</h5>
+                            <img src="assets/img/fresh-products/millets-1.png" alt="Millets">
+                            <h5>Millets</h5>
                         </a>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/fresh-products/Onion-navnath.png" alt="Onion">
-                            <h5>Onion</h5>
+                            <img src="assets/img/fresh-products/oils-1.png" alt="Oils">
+                            <h5>Oils</h5>
                         </a>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="product-list-item">
                         <a>
-                            <img src="assets/img/fresh-products/Coriander-navnath.png" alt="Coriander">
-                            <h5>Coriander</h5>
+                            <img src="assets/img/fresh-products/Pulses-1.png" alt="Pulses">
+                            <h5>Pulses</h5>
                         </a>
                     </div>
                     <!-- End Single Item -->
@@ -335,18 +338,18 @@ require 'includes/header.php';
                 </div>
                 <div class="col-lg-6 choose-us-style-one">
                     <h5 class="sub-title">Get to know us</h5>
-                    <h2 class="title">Managing Indian Farmers <br> for a Sustainable Future</h2>
+                    <h2 class="title">Bringing Back the Wisdom of <br> Traditional Farming</h2>
                     <div class="accordion accordion-regular mt-35" id="faqAccordion">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How do we select our spices and vegetables?
+                                    How do we select our produce?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     <p>
-                                        We work directly with experienced Indian farmers, selecting only the finest spice varieties and seasonal vegetables. Our farmer management system ensures that every harvest meets our high standards for purity and freshness.
+                                        We work directly with traditional farmers, selecting only the finest heritage grains and pure produce. Our cow-based farming system ensures that every harvest meets our high standards for purity and nutrition.
                                     </p>
                                 </div>
                             </div>
@@ -360,7 +363,7 @@ require 'includes/header.php';
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     <p>
-                                        Yes, our mission is to provide 100% natural spices and vegetables. We manage our farms to minimize synthetic inputs, focusing on traditional Indian farming techniques that enhance soil health and crop quality naturally.
+                                        Yes, our mission is to provide 100% natural produce. We follow cow-based natural farming practices free from chemicals, pesticides, and synthetic fertilizers, resulting in pure, nutrient-rich produce.
                                     </p>
                                 </div>
                             </div>
@@ -368,13 +371,13 @@ require 'includes/header.php';
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How do we support Indian farmers?
+                                    What is cow-based natural farming?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     <p>
-                                        By managing the supply chain directly, we ensure Indian farmers receive fair prices for their produce. We provide technical guidance on sustainable spice and vegetable cultivation, helping them improve yields and livelihoods.
+                                        Cow-based farming uses traditional methods where natural inputs from native cows are used to enhance soil fertility and crop quality, ensuring a chemical-free and nutrient-rich harvest.
                                     </p>
                                 </div>
                             </div>
@@ -413,7 +416,7 @@ require 'includes/header.php';
                                     <div class="item">
                                         <div class="content">
                                             <p>
-                                                “The quality of turmeric and red chilli I received from Nav Nath Farm's is exceptional. You can truly taste the difference of natural farming. It reminds me of the authentic flavors from my grandmother's kitchen.”
+                                                “The quality of turmeric and red chilli I received from Navanath Natural Farms is exceptional. You can truly taste the difference of natural farming. It reminds me of the authentic flavors from my grandmother's kitchen.”
                                             </p>
                                         </div>
                                         <div class="provider">
@@ -432,7 +435,7 @@ require 'includes/header.php';
                                     <div class="item">
                                         <div class="content">
                                             <p>
-                                                “As someone who prioritizes organic living, finding a reliable source for fresh vegetables has been a blessing. The direct connection to Indian farmers ensures that I'm getting the freshest produce while supporting local communities.”
+                                                “As someone who prioritizes natural living, finding a reliable source for pure millets and indigenous rice has been a blessing. The direct connection to traditional farmers ensures that I'm getting the most nutritious food.”
                                             </p>
                                         </div>
                                         <div class="provider">
@@ -451,7 +454,7 @@ require 'includes/header.php';
                                     <div class="item">
                                         <div class="content">
                                             <p>
-                                                “Managing farms to produce high-quality spices is no small feat. Nav Nath Farm's commitment to sustainable practices and empowering small-scale Indian farmers is truly commendable. Their spices are pure and aromatic.”
+                                                “Managing farms to produce high-quality produce is no small feat. Navanath Natural Farms commitment to traditional practices and providing nutrient-rich food is truly commendable. Their products are pure and authentic.”
                                             </p>
                                         </div>
                                         <div class="provider">
@@ -515,40 +518,19 @@ require 'includes/header.php';
                                 </div>
                             </div>
                             <!-- End Single Item -->
+                            
                             <!-- Single Item -->
                             <div class="swiper-slide">
                                 <div class="gallery-style-one">
-                                    <img src="assets/img/gallery/3.jpg" alt="Thumb">
+                                    <img src="assets/img/rice.png" alt="Thumb">
                                     <div class="overlay">
-                                        <span>Vegetables</span>
-                                        <h4><a>Natural Vegetables</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
-                            <div class="swiper-slide">
-                                <div class="gallery-style-one">
-                                    <img src="assets/img/gallery/5.jpg" alt="Thumb">
-                                    <div class="overlay">
-                                        <span>Cereals</span>
-                                        <h4><a>Fresh Mandrains</a></h4>
+                                        <span>Grains</span>
+                                        <h4><a>Forgotten Millets</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <!-- End Single Item -->
                             
-                            <!-- Single Item -->
-                            <div class="swiper-slide">
-                                <div class="gallery-style-one">
-                                    <img src="assets/img/gallery/10.jpg" alt="Thumb">
-                                    <div class="overlay">
-                                        <span>Havest</span>
-                                        <h4><a>Crispy Cucumber</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
                         </div>
 
                         <!-- Pagination -->
@@ -634,7 +616,11 @@ require 'includes/header.php';
                     <div class="contact-form-style-one mb-md-50">
                         <h5 class="sub-title">Have Questions?</h5>
                         <h2 class="heading">Send a message</h2>
-                        <form action="" method="POST" class="contact-form contact-form">
+                        <form action="contact-form.php" method="POST" class="contact-form">
+                            <!-- Alert Message -->
+                            <div class="col-lg-12 alert-notification">
+                                <div class="alert-msg"></div>
+                            </div>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
@@ -670,10 +656,6 @@ require 'includes/header.php';
                                         <i class="fa fa-paper-plane"></i> Submit
                                     </button>
                                 </div>
-                            </div>
-                            <!-- Alert Message -->
-                            <div class="col-lg-12 alert-notification">
-                                <div id="message" class="alert-msg"></div>
                             </div>
                         </form>
                     </div>
@@ -799,7 +781,7 @@ require 'includes/header.php';
                                 </ul>
                             </div>
                             <h4 class="title">
-                                <a>Sustainable practices in seasonal vegetable farming.</a>
+                                <a>Traditional wisdom in cow-based natural farming.</a>
                             </h4>
                         </div>
                     </div>

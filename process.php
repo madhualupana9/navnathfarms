@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Our Process";
-$metaDescription = "Learn about our sustainable farming process and how we manage Indian farmers to bring you premium quality spices and vegetables.";
-$metaKeywords = "Farming Process, Sustainable Agriculture, Farmer Management, High-Quality Spices";
+$metaDescription = "Learn about our traditional farming process and how we bring you 100% chemical-free, nutrient-rich produce from Navanath Natural Farms.";
+$metaKeywords = "Farming Process, Traditional Agriculture, Natural Farming, Pure Produce, Navanath Natural Farms";
 require 'includes/header.php'; 
 ?>
 

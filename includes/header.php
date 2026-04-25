@@ -10,11 +10,11 @@
     
     <!-- SEO Meta Tags -->
     <?php
-    $defaultTitle = "Nav Nath Farm's | Premium Indian Spices & Fresh Vegetables";
-    $defaultDesc = "Nav Nath Farm's connects you with the finest Indian spices and organic vegetables sourced directly from managed Indian farms. Experience 100% natural, sustainable produce.";
-    $defaultKeywords = "Indian spices, fresh vegetables, sustainable farming, organic produce, farm to table, turmeric, chilli, ginger, onion, natural farming, farmer empowerment";
+    $defaultTitle = "Navanath Natural Farms | Traditional Farming & Pure Produce";
+    $defaultDesc = "Navanath Natural Farms brings back the wisdom of traditional farming with 100% chemical-free, nutrient-rich produce. Experience the purity of indigenous rice, millets, and cold-pressed oils.";
+    $defaultKeywords = "Navanath Natural Farms, Traditional Farming, Indigenous Rice, Millets, Organic Turmeric, Cold-Pressed Oils, Chilli Powder, Pulses, Natural Farming";
     
-    $title = isset($pageTitle) ? $pageTitle . " | Nav Nath Farm's" : $defaultTitle;
+    $title = isset($pageTitle) ? $pageTitle . " | Navanath Natural Farms" : $defaultTitle;
     $description = isset($metaDescription) ? $metaDescription : $defaultDesc;
     $keywords = isset($metaKeywords) ? $metaKeywords : $defaultKeywords;
     ?>
@@ -22,7 +22,7 @@
     <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>">
-    <meta name="author" content="Nav Nath Farm's">
+    <meta name="author" content="Navanath Natural Farms">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Facebook -->
@@ -76,7 +76,7 @@
                                 <i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana.
                             </li>
                             <li>
-                                <i class="fas fa-phone-alt"></i> +91 9876543219
+                                <i class="fas fa-phone-alt"></i> +91 85208 26624
                             </li>
                         </ul>
                     </div>
@@ -139,7 +139,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.php">
-                        <img src="assets/img/Navanath-Farms-Final-Logo2.jpg" class="logo" alt="NavNathFarms Logo">
+                        <img src="assets/img/Navanath-Farms-Final-Logo2.jpg" class="logo" alt="Navanath Natural Farms Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -149,7 +149,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
 
-                        <img src="assets/img/Navanath-Farms-Final-Logo2.jpg" alt="NavNathFarms Logo">
+                        <img src="assets/img/Navanath-Farms-Final-Logo2.jpg" alt="Navanath Natural Farms Logo">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-times"></i>
                         </button>
