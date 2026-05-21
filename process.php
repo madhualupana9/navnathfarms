@@ -250,7 +250,7 @@ require 'includes/header.php';
                     <p style="color: #fff;">Our streamlined logistics network ensures that your order is delivered swiftly and safely, bringing the freshness of the farm directly to your kitchen with minimal transit time.</p>
                 </div>
                 <div class="col-md-5 paddingo">
-                    <img src="assets/img/proc8.png" class="img-responsive">
+                    <img src="assets/img/millets-process-2.png" class="img-responsive">
                 </div>
             </div>
         </div>

@@ -66,22 +66,22 @@
     <div class="top-bar-area text-light" style="background: #c1c439;">
         <div class="container">
             <div class="row align-center">
-                <div class="col-lg-9">
+                <div class="col-lg-10">
                     <div class="flex-item left">
                         <p>
-                            That's right, we only sell 100% natural
+                            We are Navnath Farms, We Produce The Pure because you deserve nothing less.
                         </p>
                         <ul>
                             <li>
                                 <i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana.
                             </li>
                             <li>
-                                <i class="fas fa-phone-alt"></i> +91 85208 26624
+                                <i class="fas fa-phone-alt"></i> +91 91829 49001
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 text-end">
+                <div class="col-lg-2 text-end">
                     <div class="social">
                         <ul>
                             <li>
@@ -89,21 +89,15 @@
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
+                            
                             <li>
                                 <a href="#">
                                     <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
+
+                            
+                            
                         </ul>
                     </div>
                 </div>

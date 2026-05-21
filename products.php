@@ -260,7 +260,7 @@ require 'includes/header.php';
 </style>
 <!-- Start Breadcrumb 
     ============================================= -->
-    <div class="breadcrumb-area text-center shadow dark" style="background-image: url(assets/img/about/bread1.jpg);background-size: contain !important;background-repeat: no-repeat;background-attachment: normal !important;padding: 180px 0px;">
+    <div class="breadcrumb-area text-center shadow dark" style="background-image: url(assets/img/product-section.png);background-size: contain !important;background-repeat: no-repeat;background-attachment: normal !important;padding: 100px 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -365,7 +365,7 @@ require 'includes/header.php';
                                     <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Chilli Powder">Order</a></div>
                                 </div> 
                       </div>
-                      <div class="col-md-3">
+                      <!-- <div class="col-md-3">
                          <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
                                         <img src="assets/img/navnath/products/Dry Ginger.png" class="img-responsive product-image" alt="Ginger">
@@ -378,12 +378,12 @@ require 'includes/header.php';
                                     </div>
                                     <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Dry Ginger">Order</a></div>
                                 </div> 
-                      </div>
+                      </div> -->
                       <div class="col-md-3">
                           <div class="card h-100 mb-4">                    
                                     <div class="card-body text-left">
-                                        <img src="assets/img/navnath/products/Coriander.png" class="img-responsive product-image" alt="Coriander">
-                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Coriander</p>
+                                        <img src="assets/img/navnath/products/Coriande.png" class="img-responsive product-image" alt="Coriander">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Coriander Powder</p>
                                         <div class="product-description">
                                             <p style="font-size: 14px; padding: 0 10px;">Naturally sun-dried and stone ground. Adds a refreshing, earthy aroma to your dishes.</p>
                                         </div>
@@ -426,6 +426,42 @@ require 'includes/header.php';
                                         
                                     </div>
                                     <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Pulses">Order</a></div>
+                                </div> 
+                      </div>
+                  </div>
+                </div>
+
+                <input type="radio" name="tabs" id="tabfour">
+                <label for="tabfour"><img src="assets/img/oil.png" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"> Ghee & Honey</label>
+                <div class="tab">
+                  <div class="row" style="margin-bottom: 50px;">
+                      <div class="col-md-3">
+                                <div class="card h-100 mb-4">                    
+                                    <div class="card-body text-left">
+                                        <img src="assets/img/fresh-products/pure_cow_ghee.png" class="img-responsive product-image">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Pure Cow Ghee</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Traditionally made from A2 milk. Rich in aroma and nutritional value. Supports digestion and brain health.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">100% Pure</span>
+                                        
+                                    </div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Pure Cow Ghee">Order</a></div>
+                                </div>
+                             
+                      </div>
+                      <div class="col-md-3">
+                         <div class="card h-100 mb-4">                    
+                                    <div class="card-body text-left">
+                                        <img src="assets/img/fresh-products/honey.png" class="img-responsive product-image">
+                                        <p class="card-text" style="color: #aa7d39;font-size: 22px;">Natural Forest Honey</p>
+                                        <div class="product-description">
+                                            <p style="font-size: 14px; padding: 0 10px;">Raw and unprocessed honey collected from wild hives. Rich in antioxidants and natural enzymes.</p>
+                                        </div>
+                                        <span class="font-lead-base" style="background: #c1c439;color: #fff;padding: 2px 6px;font-size: 10px;">Raw & Natural</span>
+                                        
+                                    </div>
+                                    <div class="card-footer" style="margin-top: auto;"><a href="#" class="btn btn-theme secondary btn-md radius animation" data-bs-toggle="modal" data-bs-target="#orderModal" data-product="Natural Forest Honey">Order</a></div>
                                 </div> 
                       </div>
                   </div>

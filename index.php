@@ -269,7 +269,7 @@ require 'includes/header.php';
                     <div class="product-list-item">
                         <a>
                             <img src="assets/img/fresh-products/Chilli-navnath.png" alt="Chilli">
-                            <h5>Chilli</h5>
+                            <h5>Chilli Powder</h5>
                         </a>
                     </div>
                     <!-- End Single Item -->
@@ -416,7 +416,7 @@ require 'includes/header.php';
                                     <div class="item">
                                         <div class="content">
                                             <p>
-                                                “The quality of turmeric and red chilli I received from Navanath Natural Farms is exceptional. You can truly taste the difference of natural farming. It reminds me of the authentic flavors from my grandmother's kitchen.”
+                                                “The quality of turmeric and red chilli Powder I received from Navanath Natural Farms is exceptional. You can truly taste the difference of natural farming. It reminds me of the authentic flavors from my grandmother's kitchen.”
                                             </p>
                                         </div>
                                         <div class="provider">

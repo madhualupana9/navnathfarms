@@ -38,8 +38,8 @@ require 'includes/header.php';
             <div class="farmer-content-top">
                 <div class="row">
                     <div class="col-lg-7 right-info">
-                        <h2>Bringing Back the Wisdom of</h2>
-                        <span style="color: #c1c439;font-size: 46px;text-transform: capitalize;margin-bottom: 0px;margin-top: 0px;">Traditional Farming</span>
+                        <h2>We are Navnath Farms</h2>
+                        <span style="color: #c1c439;font-size: 38px;text-transform: capitalize; line-height: 1.2;">we produce the pure because you deserve nothing less</span>
                         <p>
                             At <strong>Navanath Natural Farm</strong>, we are not just farmers we are guardians of purity, tradition, and health. With every grain, spice, and drop of oil, we reconnect you to natural nutrition and chemical-free living. Our mission is to provide pure, nutrient-rich produce grown through cow-based natural farming practices.
                         </p>
@@ -112,7 +112,7 @@ require 'includes/header.php';
                 </div>
                 <div class="col-lg-6 choose-us-style-one">
                     <div class="thumb">
-                        <img src="assets/img/about/abt4.jpg" alt="Image Not Found">
+                        <img src="assets/img/about/organic_products_crate.png" alt="Image Not Found">
                         <div class="shape">
                             <img class="wow fadeInDown" src="assets/img/shape/22.png" alt="Image not found" style="visibility: visible; animation-name: fadeInDown;">
                         </div>

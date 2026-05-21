@@ -7,7 +7,7 @@ require 'includes/header.php';
 
 <!-- Start Breadcrumb 
     ============================================= -->
-    <div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/banner/18.jpg);">
+    <div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/contact-us.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -15,7 +15,7 @@ require 'includes/header.php';
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
-                            <li class="active">Contact Us</li>
+                            <li class="active" style="color: aliceblue;">Contact Us</li>
                         </ol>
                     </nav>
                 </div>
@@ -100,7 +100,7 @@ require 'includes/header.php';
                                     <h5 class="title">Our Location</h5>
                                     <p>
                                         Plot 87, Rd No: 2, Mangapuram, <br> Old Alwal, Hyderabad, <br> Telangana - 500010 <br>
-                                        <strong>GST : 36AARCM1685M1ZO</strong>
+                                        <!-- <strong>GST : 36AARCM1685M1ZO</strong> -->
                                     </p>
                                 </div>
                             </li>
@@ -110,7 +110,7 @@ require 'includes/header.php';
                                 </div>
                                 <div class="content">
                                     <h5 class="title">Call Us</h5>
-                                    <a href="tel:+918520826624">+91 85208 26624</a>
+                                    <a href="tel:+919182949001">+91 91829 49001</a>
                                 </div>
                             </li>
                             <li class="wow fadeInUp" data-wow-delay="500ms">
