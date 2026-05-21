@@ -87,17 +87,28 @@
                                         <i class="fas fa-home"></i>
                                     </div>
                                     <div class="content">
-                                        <strong>Address:</strong>
-                                        Plot 87, Rd No: 2, Mangapuram, Old Alwal, Hyderabad, Telangana - 500010.
+                                        <strong>Agri Location:</strong>
+                                        Armoor, Telangana.
                                     </div>
                                 </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <div class="content">
+                                        <strong>Corporate office:</strong>
+                                         Old alwaal, Hyderabad.
+                                    </div>
+                                </li>
+
                                 <li>
                                     <div class="icon">
                                         <i class="fas fa-envelope"></i>
                                     </div>
                                     <div class="content">
                                         <strong>Email:</strong>
-                                        <a href="mailto:navanathfarms@gmail.com">navanathfarms@gmail.com</a>
+                                        <a href="mailto:info@navanathfarms.com">info@navanathfarms.com</a>
                                     </div>
                                 </li>
                                 <li>

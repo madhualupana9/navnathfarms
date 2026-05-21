@@ -97,10 +97,20 @@ require 'includes/header.php';
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="info">
-                                    <h5 class="title">Our Location</h5>
+                                    <h5 class="title">Agri Location</h5>
                                     <p>
-                                        Plot 87, Rd No: 2, Mangapuram, <br> Old Alwal, Hyderabad, <br> Telangana - 500010 <br>
-                                        <!-- <strong>GST : 36AARCM1685M1ZO</strong> -->
+                                        Armoor, <br>Telangana.<br>
+                                    </p>
+                                </div>
+                            </li>
+                             <li class="wow fadeInUp" data-wow-delay="300ms">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info">
+                                    <h5 class="title">Corporate office</h5>
+                                    <p>
+                                        Old alwaal, <br>Hyderabad.<br>
                                     </p>
                                 </div>
                             </li>
@@ -119,7 +129,7 @@ require 'includes/header.php';
                                 </div>
                                 <div class="info">
                                     <h5 class="title">Email</h5>
-                                    <a href="mailto:navanathfarms@gmail.com">navanathfarms@gmail.com</a>
+                                    <a href="mailto:info@navanathfarms.com">info@navanathfarms.com</a>
                                 </div>
                             </li>
                         </ul>

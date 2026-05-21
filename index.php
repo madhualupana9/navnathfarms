@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Home";
-$metaDescription = "Navanath Natural Farms brings back the wisdom of traditional farming with 100% chemical-free, nutrient-rich produce. Explore our indigenous rice, millets, cold-pressed oils, and more.";
+$metaDescription = "Navanath Natural Farms brings back the wisdom of traditional farming with 100% Traditional Farming, nutrient-rich produce. Explore our indigenous rice, millets, cold-pressed oils, and more.";
 $metaKeywords = "Navanath Natural Farms, Traditional Farming, Indigenous Rice, Millets, Organic Turmeric, Cold-Pressed Oils, Chilli Powder, Pulses, Chemical-free Produce";
 require 'includes/header.php'; 
 ?>
@@ -105,7 +105,7 @@ require 'includes/header.php';
                                 <img src="assets/img/fresh-products/turmaric-navnath.png" alt="spice icon">
                                 <h5><a >Natural Farming</a></h5>
                                 <p>
-                                    Using traditional methods and natural inputs for 100% chemical-free produce.
+                                    Using traditional methods and natural inputs for 100% Traditional Farming.
                                 </p>
                             </div>
                             <div class="top-product-item">
@@ -363,7 +363,7 @@ require 'includes/header.php';
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     <p>
-                                        Yes, our mission is to provide 100% natural produce. We follow cow-based natural farming practices free from chemicals, pesticides, and synthetic fertilizers, resulting in pure, nutrient-rich produce.
+                                        Yes, our mission is to provide 100% Traditional Farming. We follow cow-based natural farming practices free from chemicals, pesticides, and synthetic fertilizers, resulting in pure, nutrient-rich produce.
                                     </p>
                                 </div>
                             </div>

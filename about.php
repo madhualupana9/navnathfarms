@@ -44,7 +44,7 @@ require 'includes/header.php';
                             At <strong>Navanath Natural Farm</strong>, we are not just farmers we are guardians of purity, tradition, and health. With every grain, spice, and drop of oil, we reconnect you to natural nutrition and chemical-free living. Our mission is to provide pure, nutrient-rich produce grown through cow-based natural farming practices.
                         </p>
                         <ul class="team-list mt-25">
-                            <li>100% chemical-free, nutrient-rich produce.</li>
+                            <li>100% Traditional Farming, nutrient-rich produce.</li>
                             <li>Cow-based natural farming practices.</li>
                             <li>Specialization in indigenous rice, millets, and cold-pressed oils.</li>
                             <li>Sustainable practices and 100% natural inputs.</li>
@@ -72,9 +72,7 @@ require 'includes/header.php';
                 <div class="col-lg-6 choose-us-style-one">
                     <div class="thumb">
                         <img src="assets/img/about/abt2.jpg" alt="Image Not Found">
-                        <div class="shape">
-                            <img class="wow fadeInDown" src="assets/img/shape/22.png" alt="Image not found" style="visibility: visible; animation-name: fadeInDown;">
-                        </div>
+                        
                         
                     </div>
                 </div>
@@ -130,7 +128,7 @@ require 'includes/header.php';
                     <div>
                        <p style="font-size: 40px;color: #000;">We are</p> 
                        <img src="assets/img/Navanath-Farms-Final-Logo2-rmbg.png" class="img-responsive" alt="Image Not Found" style="width: 150px;">
-                       <h2 class="title" style="font-size: 46px;font-weight: 500;color: #5a401f;letter-spacing: 2px;">Grow With Us, Naturally</h2>
+                       <h2 class="title" style="font-size: 46px;font-weight: 500;color: #5a401f;letter-spacing: 2px;">Because You Deserve Nothing Less</h2>
                        
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Our Process";
-$metaDescription = "Learn about our traditional farming process and how we bring you 100% chemical-free, nutrient-rich produce from Navanath Natural Farms.";
+$metaDescription = "Learn about our traditional farming process and how we bring you 100% Traditional Farming, nutrient-rich produce from Navanath Natural Farms.";
 $metaKeywords = "Farming Process, Traditional Agriculture, Natural Farming, Pure Produce, Navanath Natural Farms";
 require 'includes/header.php'; 
 ?>

@@ -66,10 +66,10 @@
     <div class="top-bar-area text-light" style="background: #c1c439;">
         <div class="container">
             <div class="row align-center">
-                <div class="col-lg-10">
+                <div class="col-lg-9">
                     <div class="flex-item left">
                         <p>
-                            We are Navnath Farms, We Produce The Pure because you deserve nothing less.
+                            We are Navnath Farms, We Produce The Pure.
                         </p>
                         <ul>
                             <li>
@@ -81,12 +81,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 text-end">
+                <div class="col-lg-3 text-end">
                     <div class="social">
                         <ul>
                             <li>
                                 <a href="#">
                                     <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             

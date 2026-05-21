@@ -20,9 +20,11 @@ require 'includes/header.php';
     background: url('your-image.jpg') center/cover no-repeat;
     border: 10px solid white;
     }
-    /*.har-pro:hover{
-        width: 96%;
-    }*/
+    .har-pro{
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
 </style>
 <!-- Start Breadcrumb 
     ============================================= -->
@@ -67,11 +69,11 @@ require 'includes/header.php';
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-3">
-                    <img src="assets/img/spices.png" class="img-responsive har-pro">
+                    <img src="assets/img/Indian-Spices.png" class="img-responsive har-pro">
                     <p style="font-weight: 600;color: #aa7d39;text-align: center;font-size: 22px;padding-top: 20px;">Indian Spices</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/img/fresh-products/oils-ad-1.png" class="img-responsive har-pro" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover; border: 10px solid white;">
+                    <img src="assets/img/fresh-products/oils-ad-1.png" class="img-responsive har-pro">
                     <p style="font-weight: 600;color: #aa7d39;text-align: center;font-size: 22px;padding-top: 20px;">Cold-Pressed Oils</p>
                 </div>
                 <div class="col-md-3">
@@ -95,7 +97,7 @@ require 'includes/header.php';
                 </div>
                 <div class="col-md-12">
                     <ul class="list-style-two">
-                        <li>Commitment to 100% natural and chemical-free farming practices.</li>
+                        <li>Commitment to Traditional Farming practices.</li>
                         <li>Availability of verifiable land records and soil health reports.</li>
                         <li>Willingness to adopt traditional and sustainable cultivation techniques.</li>
                         <li>Active participation in community knowledge-sharing sessions.</li>
